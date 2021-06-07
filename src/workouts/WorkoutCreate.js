@@ -25,7 +25,7 @@ const WorkoutCreate = (props) =>{
             props.fetchWorkouts();
         }))
     }
-
+// foo
     return(
         <>
             <h3>Log a Workout</h3>
