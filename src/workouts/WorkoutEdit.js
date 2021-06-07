@@ -5,7 +5,7 @@ const WorkoutEdit = (props) =>{
     const [editDesc, setEditDesc] = useState(props.workoutToUpdate.description);
     const [editDef, setEditDef] = useState(props.workoutToUpdate.definition);
     const [editRes, setEditRes] = useState(props.workoutToUpdate.result);
-// ignore this comment
+    
     const workoutUpdate = (e, workout) =>{
         e.preventDefault();
         fetch(`http://localhost:4000/log/${props.workoutToUpdate.id}`, {
